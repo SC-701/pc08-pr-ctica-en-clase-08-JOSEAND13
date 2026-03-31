@@ -6,6 +6,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<ItemGroup>
+		<None Include="wwwroot\js\scripts.js" />
+		<None Include="wwwroot\js\site.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autorizacion.Abstracciones.JOSEAND13" Version="1.0.0" />
+		<PackageReference Include="Autorizacion.DA.JOSEAND13" Version="1.0.0" />
+		<PackageReference Include="Autorizacion.Flujo.JOSEAND13" Version="1.0.0" />
+		<PackageReference Include="Autorizacion.Middleware.JOSEAND13" Version="1.0.0" />
+	</ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Abstracciones\Abstracciones.csproj" />
     <ProjectReference Include="..\Reglas\Reglas.csproj" />

@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.24" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	  <PackageReference Include="Autorizacion.Abstracciones.JOSEAND13" Version="1.0.0" />
+	  <PackageReference Include="Autorizacion.DA.JOSEAND13" Version="1.0.0" />
+	  <PackageReference Include="Autorizacion.Flujo.JOSEAND13" Version="1.0.0" />
+	  <PackageReference Include="Autorizacion.Middleware.JOSEAND13" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

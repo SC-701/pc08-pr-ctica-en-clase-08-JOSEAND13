@@ -71,5 +71,8 @@
     <Build Include="dbo\Stored Procedures\AgregarProducto.sql" />
     <Build Include="dbo\Stored Procedures\ObtenerSubCategorias.sql" />
     <Build Include="dbo\Stored Procedures\ObtenerCategorias.sql" />
+    <Build Include="dbo\Tables\Usuarios.sql" />
+    <Build Include="dbo\Tables\PerfilesxUsuario.sql" />
+    <Build Include="dbo\Tables\Perfiles.sql" />
   </ItemGroup>
 </Project>
